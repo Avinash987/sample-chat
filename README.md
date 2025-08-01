@@ -1,16 +1,33 @@
-# Real-Time Chat Application
+# Cyber Chat - Gaming-Themed Real-Time Chat Application
 
-A simple real-time chat application built with React, TypeScript, and Socket.IO.
+A modern, gaming-themed real-time chat application built with React, TypeScript, and Socket.IO. Features a sleek, futuristic design with neon accents and dark mode.
 
-## Features
+![Login Screen](screenshots/login.png)
 
-- Basic authentication system (username-based)
-- Multiple chat rooms
+## ✨ Features
+
+- Quick username-based authentication
+- Multiple chat rooms support
 - Real-time messaging
-- Display of active users in each room
-- Room creation and joining functionality
+- Live user presence tracking
+- Dynamic room creation
+- Responsive design
 
-## Getting Started
+## 🎯 Screenshots
+
+### Login Screen
+
+![Login Screen](screenshots/login.png)
+
+### Chat Rooms
+
+![Chat Rooms](screenshots/rooms.png)
+
+### Live Chat
+
+![Chat Room](screenshots/chat.png)
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -19,10 +36,24 @@ A simple real-time chat application built with React, TypeScript, and Socket.IO.
 
 ### Installation
 
-1. Clone the repository
-2. Install dependencies:
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Avinash987/sample-chat.git
+   cd sample-chat
+   ```
+
+2. Install frontend dependencies:
+
    ```bash
    npm install
+   ```
+
+3. Install server dependencies:
+   ```bash
+   cd server
+   npm install
+   cd ..
    ```
 
 ### Running the Application
@@ -31,22 +62,45 @@ A simple real-time chat application built with React, TypeScript, and Socket.IO.
    ```bash
    npm run dev
    ```
-   This will start:
-   - Frontend client at http://localhost:5173
-   - Backend server at http://localhost:3001
+   This will launch: [http://localhost:5173](http://localhost:5173)
 
-## Project Structure
+## 🏗 Project Structure
 
 ```
 src/
-├── components/      # Reusable UI components
-├── pages/          # Page components
-│   ├── Login.tsx   # Login page
-│   ├── ChatRooms.tsx   # Room listing page
-│   └── ChatRoom.tsx    # Chat room page
-├── services/       # Services (Socket.IO, etc.)
-└── App.tsx         # Main application component
+├── components/     # Reusable UI components
+├── pages/         # Main page components
+│   ├── Login.tsx       # Login screen
+│   ├── ChatRooms.tsx  # Room listing
+│   └── ChatRoom.tsx   # Chat interface
+├── services/      # Backend services
+└── App.tsx        # Main app component
+
+server/            # Socket.IO backend
 ```
+
+## 💻 Technologies Used
+
+- **Frontend**
+
+  - React with TypeScript
+  - Socket.IO Client
+  - Modern CSS with CSS Variables
+  - Vite for blazing fast builds
+
+- **Backend**
+  - Node.js
+  - Socket.IO
+  - Express
+
+## 🎨 UI/UX Features
+
+- Smooth message animations
+- Intuitive room navigation
+- User presence indicators
+- Responsive design for all devices
+- Gaming-inspired color scheme
+- Neon accent effects
 
 ## Technical Decisions
 
