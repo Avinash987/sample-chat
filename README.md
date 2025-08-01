@@ -17,15 +17,15 @@ A modern, gaming-themed real-time chat application built with React, TypeScript,
 
 ### Login Screen
 
-![Login Screen](screenshots/login.png)
+![Login Screen](./src/assets/login-screen.png)
 
 ### Chat Rooms
 
-![Chat Rooms](screenshots/rooms.png)
+![Chat Rooms](./src/assets/rooms.png)
 
 ### Live Chat
 
-![Chat Room](screenshots/chat.png)
+![Chat Room](./src/assets/chat.png)
 
 ## 🚀 Getting Started
 
