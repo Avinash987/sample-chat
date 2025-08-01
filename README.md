@@ -2,7 +2,7 @@
 
 A modern, gaming-themed real-time chat application built with React, TypeScript, and Socket.IO. Features a sleek, futuristic design with neon accents and dark mode.
 
-![Login Screen](screenshots/login.png)
+![Login Screen](./src/assets/login-screen.png)
 
 ## ✨ Features
 
